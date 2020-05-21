@@ -39,3 +39,11 @@ y = le.fit_transform(y)
 
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
+
+
+# feature scaling
+# standardization = x-mean(x)/standard deviation(x)  will do it all the time
+# normalization = (x - min(x))/(max(x)-min(x)) for specific tasks with value of standard distribution
+
+from sklearn.preprocessing import StandardScaler
+sc = StandardScaler()
