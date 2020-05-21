@@ -1,7 +1,7 @@
 #Machine Learning Challenge
 Hands-on Machine Learning
 
-Everyday minimum 2 hours of Machine Learning in Python.
+Everyday Machine Learning in Python.
 
 - [x] Linear Regression
 - [x] Multiple Regression
@@ -72,3 +72,8 @@ print(np.concatenate((y_pred.reshape(len(y_pred),1), y_test.reshape(len(y_test),
 #####normalization
 normalization = (x - min(x))/(max(x)-min(x)) 
 for specific tasks with value of **standard distribution**
+
+
+
+### Polynomial Regression
+
