@@ -83,3 +83,9 @@ y = a0 * x^0 + a1 * x^1 + a2 * x^2 + a3 * x^3 + a4 * x^4 + a5 * x^5
 
 ### Support Vector Regression
 
+A support vector machine construct a hyper-planes or set of hyper-planes in a high or infinte dimensional space, which can be used for regression, classification etc. 
+## Gaussian RBF Kernel
+
+![Radial Basis](radialbasis.svg)
+
+learning: transform the same feature scale in the prediction
