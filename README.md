@@ -38,9 +38,9 @@ model = LinearRegression()
 model.fit(X, y)
 ```
 
-####Feature Scaling
-#####standardization
- standardization = x-mean(x)/standard deviation(x)  
+#### Feature Scaling
+##### standardization
+standardization = x-mean(x)/standard deviation(x)  
  will do it all the time
 
 
