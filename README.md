@@ -9,7 +9,7 @@ Everyday Machine Learning in Python.
 - [x] Support Vector Regression
 - [x] Decision Tree Regression
 - [x] Random Forest Regression
-- [ ] Evaluating Regression Models Performance
+- [x] Evaluating Regression Models Performance
 - [ ] Logistic Regression
 - [ ] K-Nearest Neighbor
 - [ ] Support Vector Machine
@@ -105,3 +105,11 @@ Multiple trees
 2. build the decision tree associated to these K data points
 3. choose the number Ntree of trees you want to build
 4. for a new data pints make each one of your ntree trees predict the value of Y to tor the data point in question ; and assigh the new data pont the average acrowss all of the predicted y values.
+
+## R-Squared
+Underlying principle,
+
+SS res = sum (yi - y^i)^2
+         sum (yi - y avg)^2
+         
+ R^2 = 1- SS res / SS tot
