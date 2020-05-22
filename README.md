@@ -107,9 +107,15 @@ Multiple trees
 4. for a new data pints make each one of your ntree trees predict the value of Y to tor the data point in question ; and assigh the new data pont the average acrowss all of the predicted y values.
 
 ## R-Squared
-Underlying principle,
+average and then minimize the differences to the datapoints
 
 SS res = sum (yi - y^i)^2
          sum (yi - y avg)^2
          
  R^2 = 1- SS res / SS tot
+ 
+ adj R^2 = 1-(1-R^2) n-1/n-p-1
+ 
+ # Categorization
+ Unlike regression where you predict a continuous number, you use classification to predict a category. There is a wide variety of classification applications from medicine to marketing. Classification models include linear models like Logistic Regression, SVM, and nonlinear ones like K-NN, Kernel SVM and Random Forests.
+
