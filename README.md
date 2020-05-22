@@ -8,7 +8,7 @@ Everyday Machine Learning in Python.
 - [x] Polynomial Regression
 - [x] Support Vector Regression
 - [x] Decision Tree Regression
-- [ ] Random Forest Regression
+- [x] Random Forest Regression
 - [ ] Evaluating Regression Models Performance
 - [ ] Logistic Regression
 - [ ] K-Nearest Neighbor
@@ -44,7 +44,7 @@ model.fit(X, y)
  will do it all the time
 
 
-#####normalization
+##### normalization
 normalization = (x - min(x))/(max(x)-min(x)) 
 for specific tasks with value of **standard distribution**
 
@@ -77,7 +77,7 @@ for specific tasks with value of **standard distribution**
 
 ### Polynomial Regression
 ```
-y = a0 * x^0 + a1 * x^1 + a2 * x^2 + a3 * x^3 + a4 * x^4 + a5 * x^5 
+y = a0 * x^0 + a1 * x^1 + a2 * x^2 + a3 * x^3 + a4 * x^4 + a5 * x^5 ..
 ```
 
 
@@ -89,3 +89,19 @@ A support vector machine construct a hyper-planes or set of hyper-planes in a hi
 ![Radial Basis](radialbasis.svg)
 
 learning: transform the same feature scale in the prediction
+
+
+### Decision Tree Regression
+
+no feature scaling are resulting from successive splits. no equations!
+split data in tree
+
+### Random Forest Regression
+
+More Trees -> More robost, 
+Multiple trees 
+
+1. pick at random K data ponts from the traing set
+2. build the decision tree associated to these K data points
+3. choose the number Ntree of trees you want to build
+4. for a new data pints make each one of your ntree trees predict the value of Y to tor the data point in question ; and assigh the new data pont the average acrowss all of the predicted y values.
