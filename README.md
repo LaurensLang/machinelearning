@@ -1,4 +1,4 @@
-#Machine Learning Challenge
+# Machine Learning Challenge
 Hands-on Machine Learning
 
 Everyday Machine Learning in Python.
@@ -63,8 +63,8 @@ np.set_printoptions(precision=2)
 print(np.concatenate((y_pred.reshape(len(y_pred),1), y_test.reshape(len(y_test),1)),1))
 ```
 
-####Feature Scaling
-#####standardization
+#### Feature Scaling
+##### standardization
  standardization = x-mean(x)/standard deviation(x)  
  will do it all the time
 
